@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 180px;
+    background-color: orange;
+    box-shadow: 0 0 10px black;
+}
+nav {
+    height: 80px;
+    background-color: darkorange;
+    margin-top: 130px;
+}
