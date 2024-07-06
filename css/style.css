@@ -165,6 +165,7 @@ main .m iframe, .m2 iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+    box-shadow: 0 0 6px 2px #00000050;
 }
 
 main .capitulos {
@@ -181,23 +182,25 @@ main .m2c {
 }
 
 main .m1c, .m2c {
-    margin: 1px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     margin-top: 15px;
-    height: 90px;
-    width: 150px;
+    height: 65px;
+    width: 140px;
     border: 1px solid #a0a0a0;
     border-radius: 0 10px;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    line-height: 1.2em;
 }
 main .m1c:hover, .m2c:hover{
     box-shadow: 0 0 3px 3px #00000030;
     transition-duration: 1s;
-    font-size: .92em;
+    font-size: .81em;
 }
 main .m1c h3, .m2c h3 {
     text-transform: uppercase;
     font-weight: 900;
+    padding-bottom: 5px;
 }
 main .m1c p, .m2c p{
     padding: 0;
