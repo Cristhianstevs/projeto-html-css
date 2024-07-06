@@ -129,6 +129,7 @@ main #creditos p{
 
 main .conteudo01 {
     background-color: var(--corc06);
+    border: 1px solid #a0a0a0;
 }
 main .conteudo01 p {
     padding: 0 20px 10px 20px;
@@ -137,52 +138,68 @@ main .conteudo01 p {
 main .conteudo01 a{
     color: var(--corc00);
 }
-main .m1 {
-    margin-top: 50px;
+
+main .m {
     background-color: var(--corh06);
 }
-main .m1 h2 {
-    font-family: var(--font01);
-    transform: translate(20px, -26px);
+main .m2{
+    background-color: var(--corc06);
 }
-main .m1 .video {
-    text-align: center;
+
+main .m, .m2{
+    margin-top: 70px;
+    border: 1px solid #a0a0a0;
+    max-height: 17px;
+}
+main .m h2, .m2 h2{
+    transform: translate(25px, -27px);
+    font-family: var(--font01);
+}
+main .m, .video, .m2, .video {
     padding-bottom: 56.3%;
     position: relative;
-    transform: translatey(-45px);
+    transform: translatey(-35px);
 }
-main .m1 .video iframe {
-    margin: 10px;
+main .m iframe, .m2 iframe {
     position: absolute;
-    left: 2.7%;
+    left: 5%;
     width: 90%;
     height: 90%;
-
 }
+
 main .capitulos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 main .m1c {
-    margin: 2px;
     background-color: var(--corh06);
-    max-height: 410px;
+}
+main .m2c {
+    background-color: var(--corc06);
+}
+
+main .m1c, .m2c {
+    margin: 1px;
     padding: 10px;
     margin-top: 15px;
-    width: 170px;
+    height: 90px;
+    width: 150px;
+    border: 1px solid #a0a0a0;
     border-radius: 0 10px;
+    font-size: 0.9em;
 }
-main .m1c:hover{
+main .m1c:hover, .m2c:hover{
     box-shadow: 0 0 3px 3px #00000030;
     transition-duration: 1s;
-    font-size: 1.02em;
+    font-size: .92em;
 }
-main .m1c h3 {
+main .m1c h3, .m2c h3 {
     text-transform: uppercase;
     font-weight: 900;
 }
-main .m1c p {
+main .m1c p, .m2c p{
     padding: 0;
     margin: 0;
     text-align: center;
