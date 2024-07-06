@@ -140,6 +140,7 @@ main #conteudo01 a{
 main #m1 {
     margin-top: 50px;
     background-color: var(--corh06);
+    max-height: 410px;
 }
 main #m1 h2 {
     font-family: var(--font01);
@@ -147,11 +148,17 @@ main #m1 h2 {
 }
 main #m1 #video {
     text-align: center;
+    padding-bottom: 56.3%;
+    position: relative;
+    transform: translatey(-45px);
 }
-main #m1 iframe {
+main #m1 #video iframe {
     margin: 10px;
-    max-width: 60vw;
-    transform: translate(0, -26px);
+    position: absolute;
+    left: 2.7%;
+    width: 90%;
+    height: 90%;
+
 }
 
 /*----------Footer (Todos)----------*/
