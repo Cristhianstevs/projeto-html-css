@@ -78,7 +78,6 @@ header nav li {
 
 main {
     min-height: 80vh;
-
     font-family: var(--font02);
     line-height: 1.5em;
     font-weight: 600;
@@ -87,9 +86,9 @@ main article {
     padding: 10px;
     max-width: 700px;
     margin: auto;
+    margin-top: 30px;
 }
 main a {
-    color: var(--corh01);
     font-weight: 700;
 }
 main a:hover {
@@ -134,7 +133,6 @@ main #creditos p{
 main .conteudo01 {
     background-color: var(--corc06);
     border: 1px solid #a0a0a0;
-    margin-top: 30px;
 }
 main .conteudo01 p {
     padding: 0 20px 10px 20px;
@@ -178,6 +176,9 @@ main .capitulos {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+main .capitulos a:hover {
+    text-decoration: none;
+}
 
 main .m1c, .m3c, .m5c {
     background-color: var(--corh06);
@@ -187,7 +188,7 @@ main .m2c, .m4c {
 }
 
 main .m1c, .m2c, .m3c, .m4c, .m5c {
-    margin: 5px;
+    margin: 2px;
     padding: 5px;
     margin-top: 15px;
     height: 65px;
