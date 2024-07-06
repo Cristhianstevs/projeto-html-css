@@ -1,29 +1,119 @@
 @charset "UTF-8";
 
+/*----------Fonts----------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Recent Grotesk';
+    src: url(../fonts/fonnts.com-Recent_Grotesk_Ultra.otf) format(opentype);
+}
+
+/*----------Global----------*/
+
+:root {
+    --corh01: #E54B25;
+    --corh02: #EC5B24;
+    --corh03: #F16527;
+    --corh04: #F78733;
+    --corh05: #cfcfcf;
+    --corc01: #0070B8;
+    --corc02: #0A7ABF;
+    --corc03: #0F8DBF;
+    --corc04: #2AA9E0;
+    --corc05: #46B8F4;
+    --font01: 'Recent Grotesk';
+    --font02: 'nunito';
+}
 * {
     margin: 0;
     padding: 0;
 }
-
-header .cabecalho {
-    background-color: orange;
-    box-shadow: 0 0 10px black;
-    margin-bottom:5px;
-    height: 90px;
-    text-align: center;
-    width: 100%;
+body, html {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
-header .cabecalho h1 {
-    padding-top: 30px;
+a {
+    color: #000;
+    text-decoration: none;
+}
+abbr {
+    text-decoration: none;
+}
+
+/*----------header (todos)----------*/
+
+header #cabecalho {
+    background-color: var(--corh03);
+    box-shadow: 0 0 10px #00000050;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+header #cabecalho img {
+    height: 80px;
 }
 header nav {
-    background-color: darkorange;
-    box-shadow: 0 0 10px black;
+    background-color: var(--corh05);
+    box-shadow: 0 0 10px #00000050;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
-nav li {
+header nav li {
     display: inline-block;
-    margin: 5px;
+    margin: 8px;
+    font-weight: bolder;
+}
+
+/*----------Main----------*/
+
+main {
+    min-height: 80vh;
+    padding: 20px;
+
+}
+main article {
+    margin-top: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+main h1 {
+    font-family: var(--font01);
+    font-size: 50px;
+}
+main h2 {
+    padding: 20px 0;
+}
+main p {
+    text-align: justify;
+    padding: 10px 0;
+    font-family: var(--font02);
+    line-height: 1.5em;
+}
+main ul {
+    padding-left: 20px;
+}
+main li {
+    text-align: justify;
+    padding: 5px 0;
+    font-family: var(--font02);
+    line-height: 1.5em;
+}
+
+/*----------Footer (Todos)----------*/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
 }
