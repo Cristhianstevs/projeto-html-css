@@ -127,32 +127,31 @@ main #creditos p{
 
 /*Aulas*/
 
-main #conteudo01 {
+main .conteudo01 {
     background-color: var(--corc06);
 }
-main #conteudo01 p {
+main .conteudo01 p {
     padding: 0 20px 10px 20px;
     font-size: 1.1em;
 }
-main #conteudo01 a{
+main .conteudo01 a{
     color: var(--corc00);
 }
-main #m1 {
+main .m1 {
     margin-top: 50px;
     background-color: var(--corh06);
-    max-height: 410px;
 }
-main #m1 h2 {
+main .m1 h2 {
     font-family: var(--font01);
     transform: translate(20px, -26px);
 }
-main #m1 #video {
+main .m1 .video {
     text-align: center;
     padding-bottom: 56.3%;
     position: relative;
     transform: translatey(-45px);
 }
-main #m1 #video iframe {
+main .m1 .video iframe {
     margin: 10px;
     position: absolute;
     left: 2.7%;
@@ -160,6 +159,36 @@ main #m1 #video iframe {
     height: 90%;
 
 }
+main .capitulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+main .m1c {
+    margin: 2px;
+    background-color: var(--corh06);
+    max-height: 410px;
+    padding: 10px;
+    margin-top: 15px;
+    width: 170px;
+    border-radius: 0 10px;
+}
+main .m1c:hover{
+    box-shadow: 0 0 3px 3px #00000030;
+    transition-duration: 1s;
+    font-size: 1.02em;
+}
+main .m1c h3 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+main .m1c p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-indent: 0;
+}
+
 
 /*----------Footer (Todos)----------*/
 
