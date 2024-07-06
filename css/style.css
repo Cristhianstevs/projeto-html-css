@@ -16,11 +16,14 @@
     --corh03: #F16527;
     --corh04: #F78733;
     --corh05: #cfcfcf;
+    --corh06: #F78733dd;
+    --corc00: hsl(203, 100%, 20%);
     --corc01: #0070B8;
     --corc02: #0A7ABF;
     --corc03: #0F8DBF;
     --corc04: #2AA9E0;
     --corc05: #46B8F4;
+    --corc06: #46B8F4cc;
     --font01: 'Recent Grotesk';
     --font02: 'nunito';
 }
@@ -64,6 +67,7 @@ header nav li {
     display: inline-block;
     margin: 8px;
     font-weight: bolder;
+    font-size: 1.3em;
 }
 
 /*----------Main----------*/
@@ -71,34 +75,83 @@ header nav li {
 main {
     min-height: 80vh;
     padding: 20px;
-
+    font-family: var(--font02);
+    line-height: 1.5em;
+    font-weight: 600;
 }
 main article {
-    margin-top: 20px;
-    max-width: 900px;
+    padding: 20px;
+    max-width: 700px;
     margin: auto;
 }
+main a {
+    color: var(--corh01);
+    font-weight: 700;
+}
+main a:hover {
+    text-decoration: underline;
+}
 main h1 {
+    text-align: center;
     font-family: var(--font01);
     font-size: 50px;
+    padding-bottom: 20px;
 }
 main h2 {
     padding: 20px 0;
+    text-transform: uppercase;
+    font-weight: 900;
 }
 main p {
-    text-align: justify;
     padding: 10px 0;
-    font-family: var(--font02);
-    line-height: 1.5em;
+    text-indent: 15px;
+    text-align: justify;
 }
 main ul {
     padding-left: 20px;
 }
 main li {
-    text-align: justify;
     padding: 5px 0;
-    font-family: var(--font02);
-    line-height: 1.5em;
+    text-align: justify;
+}
+
+/*Início*/
+
+main #creditos {
+    margin-top: -10px;
+}
+main #creditos p{
+    padding: 0;
+    padding-top: -10px;
+}
+
+/*Aulas*/
+
+main #conteudo01 {
+    background-color: var(--corc06);
+}
+main #conteudo01 p {
+    padding: 0 20px 10px 20px;
+    font-size: 1.1em;
+}
+main #conteudo01 a{
+    color: var(--corc00);
+}
+main #m1 {
+    margin-top: 50px;
+    background-color: var(--corh06);
+}
+main #m1 h2 {
+    font-family: var(--font01);
+    transform: translate(20px, -26px);
+}
+main #m1 #video {
+    text-align: center;
+}
+main #m1 iframe {
+    margin: 10px;
+    max-width: 60vw;
+    transform: translate(0, -26px);
 }
 
 /*----------Footer (Todos)----------*/
