@@ -103,7 +103,6 @@ main h1 {
 }
 main h2 {
     padding: 20px 0;
-    text-transform: uppercase;
     font-weight: 900;
 }
 main p {
@@ -219,13 +218,10 @@ main .m1c p, .m2c p, .m3c p, .m4c p, .m5c p{
     font-weight: 700;
 }
 
-/*Capítulos*/
+/*Tags*/
 
-main .caps h1 {
-    margin-bottom: 20px;
-}
-main .caps h2 {
-    text-transform: none;
+main #tags h2 {
+    font-size: 2.2em;
 }
 
 /*----------Footer (Todos)----------*/
