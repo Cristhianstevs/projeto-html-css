@@ -98,7 +98,7 @@ main a:hover {
 main h1 {
     text-align: center;
     font-family: var(--font01);
-    font-size: 50px;
+    font-size: 3em;
     padding-bottom: 20px;
 }
 main h2 {
@@ -219,6 +219,14 @@ main .m1c p, .m2c p, .m3c p, .m4c p, .m5c p{
     font-weight: 700;
 }
 
+/*Capítulos*/
+
+main .caps h1 {
+    margin-bottom: 20px;
+}
+main .caps h2 {
+    text-transform: none;
+}
 
 /*----------Footer (Todos)----------*/
 
