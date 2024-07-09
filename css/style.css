@@ -67,6 +67,7 @@ header nav {
     border-bottom: 1px solid rgb(180, 180, 180);
 }
 header nav li {
+    text-shadow: 0 0 2px #00000060;
     display: inline-block;
     margin: 8px;
     font-weight: 700;
