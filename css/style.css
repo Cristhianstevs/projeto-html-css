@@ -185,9 +185,17 @@ main .capitulos a:hover {
 
 main .m1c, .m3c, .m5c {
     background-color: var(--corh06);
+    background-image: url(../img/html05.png);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: 81px -25px;
 }
 main .m2c, .m4c {
     background-color: var(--corc06);
+    background-image: url(../img/css05.png);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: 81px -25px;
 }
 
 main .m1c, .m2c, .m3c, .m4c, .m5c {
